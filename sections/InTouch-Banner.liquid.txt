@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #f9f9f6; /* Un tono crema muy suave y natural */
+    background-color: #f9f9f6;
     margin: 0;
     padding: 0;
   }
@@ -63,7 +63,7 @@
     display: inline-block;
     margin-top: 15px;
     padding: 14px 30px;
-    background-color: #2b422b; /* Verde oscuro elegante */
+    background-color: #2b422b;
     color: #ffffff;
     text-decoration: none;
     border-radius: 4px;
@@ -74,7 +74,6 @@
     background-color: #1a2a1a;
   }
   
-  /* Adaptación para celulares */
   @media (max-width: 768px) {
     .intouch-hero {
       flex-direction: column;
@@ -92,10 +91,12 @@
 {% schema %}
 {
   "name": "Banner InTouch",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
   "presets": [
     {
-      "name": "Banner InTouch",
-      "category": "Custom"
+      "name": "Banner InTouch"
     }
   ]
 }
