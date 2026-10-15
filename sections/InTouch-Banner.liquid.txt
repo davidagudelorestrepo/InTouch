@@ -1,0 +1,102 @@
+<div class="intouch-hero">
+  <div class="intouch-hero__image">
+    <img src="https://cdn.shopify.com/s/files/1/0827/8940/0761/files/Primera_Foto_Intouch.jpg?v=1792089178" alt="InTouch Cannabis Gotas Medicinales" loading="eager" />
+  </div>
+  <div class="intouch-hero__content">
+    <span class="intouch-subtitle">INTOUCH CANNABIS</span>
+    <h1 class="intouch-title">Naturaleza, calidad y confianza</h1>
+    <p class="intouch-text">En InTouch Cannabis creemos en la importancia de la información transparente, la calidad y la trazabilidad en los productos derivados del cannabis.</p>
+    <p class="intouch-text">Trabajamos para ofrecer información clara sobre el origen, la composición y las características de nuestros productos, con un compromiso permanente con el cumplimiento normativo colombiano.</p>
+    <a href="#productos" class="intouch-btn">Conoce nuestra propuesta</a>
+  </div>
+</div>
+
+<style>
+  .intouch-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f9f9f6; /* Un tono crema muy suave y natural */
+    margin: 0;
+    padding: 0;
+  }
+  .intouch-hero__image {
+    flex: 1 1 50%;
+    min-width: 300px;
+  }
+  .intouch-hero__image img {
+    width: 100%;
+    height: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+    display: block;
+  }
+  .intouch-hero__content {
+    flex: 1 1 50%;
+    padding: 6% 8%;
+    text-align: left;
+    min-width: 300px;
+    box-sizing: border-box;
+  }
+  .intouch-subtitle {
+    display: block;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #4a5c4a;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  .intouch-title {
+    font-size: 2.8rem;
+    color: #1c2b1c;
+    margin-bottom: 25px;
+    line-height: 1.1;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  .intouch-text {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .intouch-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 30px;
+    background-color: #2b422b; /* Verde oscuro elegante */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  .intouch-btn:hover {
+    background-color: #1a2a1a;
+  }
+  
+  /* Adaptación para celulares */
+  @media (max-width: 768px) {
+    .intouch-hero {
+      flex-direction: column;
+    }
+    .intouch-hero__content {
+      padding: 10% 6%;
+      text-align: center;
+    }
+    .intouch-title {
+      font-size: 2.2rem;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Banner InTouch",
+  "presets": [
+    {
+      "name": "Banner InTouch",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
